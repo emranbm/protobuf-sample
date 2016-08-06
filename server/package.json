@@ -1,0 +1,30 @@
+{
+  "name": "protobuf-sample-server",
+  "version": "1.0.0",
+  "description": "The most simple server for using protocol buffers in practice.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emranbm/protobuf-sample.git"
+  },
+  "keywords": [
+    "protobuf",
+    "protocol buffers",
+    "node.js"
+  ],
+  "author": "Mr. Coder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emranbm/protobuf-sample/issues"
+  },
+  "homepage": "https://github.com/emranbm/protobuf-sample#readme",
+  "dependencies": {
+    "protobufjs": "^5.0.1",
+    "socket.io-client": "^1.4.8"
+  }
+}
